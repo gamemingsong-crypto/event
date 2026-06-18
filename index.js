@@ -15,7 +15,7 @@ const client = new Client({
     ]
 });
 
-const TOKEN = "MTUxNzIxNjIzMzk1MzQyNzUxNg.GHBtdo._W-54p1pmorLz_Aj3VTWlfPt6YJ6VGi7mwgW74";
+const TOKEN = "process.env.TOKEN";
 const ADMIN_ID = "1510992258319515689";
 
 const DATA_FILE = "./data.json";
@@ -488,4 +488,4 @@ process.on("uncaughtException", err => {
 // Login
 // ==================
 
-client.login("MTUxNzIxNjIzMzk1MzQyNzUxNg.GHBtdo._W-54p1pmorLz_Aj3VTWlfPt6YJ6VGi7mwgW74");
+client.login(process.env.TOKEN);
