@@ -15,7 +15,7 @@ const client = new Client({
     ]
 });
 
-const TOKEN = "MTUxNzIxNjIzMzk1MzQyNzUxNg.GfYzEn.iMAj1ORLG-rgVxVMkb-l4EYPT_h1prkUbq80iY";
+const TOKEN = "MTUxNzIxNjIzMzk1MzQyNzUxNg.GHBtdo._W-54p1pmorLz_Aj3VTWlfPt6YJ6VGi7mwgW74";
 const ADMIN_ID = "1510992258319515689";
 
 const DATA_FILE = "./data.json";
@@ -488,4 +488,4 @@ process.on("uncaughtException", err => {
 // Login
 // ==================
 
-client.login("MTUxNzIxNjIzMzk1MzQyNzUxNg.GfYzEn.iMAj1ORLG-rgVxVMkb-l4EYPT_h1prkUbq80iY");
+client.login("MTUxNzIxNjIzMzk1MzQyNzUxNg.GHBtdo._W-54p1pmorLz_Aj3VTWlfPt6YJ6VGi7mwgW74");
