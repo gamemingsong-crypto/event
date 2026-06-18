@@ -15,7 +15,7 @@ const client = new Client({
     ]
 });
 
-const TOKEN = "process.env.TOKEN";
+const TOKEN = process.env.TOKEN;
 const ADMIN_ID = "1510992258319515689";
 
 const DATA_FILE = "./data.json";
