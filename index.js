@@ -8,7 +8,6 @@ const dotenv = require('dotenv')
 dotenv.config();
 
 const fs = require("fs");
-
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
