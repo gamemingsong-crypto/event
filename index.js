@@ -193,7 +193,7 @@ client.once("clientReady", () => {
 
     console.log(`ล็อกอินสำเร็จ ${client.user.tag}`);
 
-    client.user.setActivity('สุ่มเลขแจกรางวัล | พิมพ์ !เลข 00.', { 
+    client.user.setActivity('สุ่มเลขแจกรางวัล | พิมพ์ !เลข 00', { 
         type: ActivityType.Watching 
     });
 
