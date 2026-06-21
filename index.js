@@ -103,7 +103,7 @@ async function tempMessage(
 function createNumberTableEmbed(players) {
 
     const embed = new EmbedBuilder()
-        .setTitle("🐱📊 ตารางเลข 00–99")
+        .setTitle("🎰 กรุณาเลือกเลข 00–99")
         .setColor(0xFFD6E9)
         .setFooter({
             text: "❤️ = เต็ม | 💛 = เหลือ 1 | 🤍 = ว่าง"
@@ -436,7 +436,7 @@ ${winners
     // เปิดรับเลข
     // ==================
 
-    if (args[0] === "!เปิดคับ") {
+    if (args[0] === "!เปิดครับ") {
 
         if (message.author.id !== ADMIN_ID)
             return message.channel.send(
@@ -456,7 +456,7 @@ ${winners
     // ปิดรับเลข
     // ==================
 
-    if (args[0] === "!ปิดคับ") {
+    if (args[0] === "!ปิดครับ") {
 
         if (message.author.id !== ADMIN_ID)
             return message.channel.send(
