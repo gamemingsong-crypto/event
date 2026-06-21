@@ -11,7 +11,8 @@ http.createServer((req, res) => {
 const {
     Client,
     GatewayIntentBits,
-    EmbedBuilder
+    EmbedBuilder,
+    ActivityType
 } = require("discord.js");
 
 const fs = require("fs");
@@ -190,9 +191,11 @@ async function updateTable() {
 
 client.once("clientReady", () => {
 
-    console.log(
-        `ล็อกอินสำเร็จ ${client.user.tag}`
-    );
+    console.log(`ล็อกอินสำเร็จ ${client.user.tag}`);
+
+    client.user.setActivity('สุ่มเลขแจกรางวัล | พิมพ์ !เลข 00.', { 
+        type: ActivityType.Watching 
+    });
 
 });
 client.on("messageCreate", async (message) => {
